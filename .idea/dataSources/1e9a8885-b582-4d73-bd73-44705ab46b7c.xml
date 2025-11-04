@@ -3,30 +3,8 @@
   <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.53">
     <root id="1">
       <DefaultAuthPlugin>mysql_native_password</DefaultAuthPlugin>
-      <DefaultCasing>mixed/mixed</DefaultCasing>
       <DefaultEngine>InnoDB</DefaultEngine>
-      <Grants>menudb|schema||swcamp|localhost|ALTER|G
-menudb|schema||swcamp|localhost|ALTER ROUTINE|G
-menudb|schema||swcamp|localhost|CREATE|G
-menudb|schema||swcamp|localhost|CREATE ROUTINE|G
-menudb|schema||swcamp|localhost|CREATE TEMPORARY TABLES|G
-menudb|schema||swcamp|localhost|CREATE VIEW|G
-menudb|schema||swcamp|localhost|DELETE|G
-menudb|schema||swcamp|localhost|DELETE HISTORY|G
-menudb|schema||swcamp|localhost|DROP|G
-menudb|schema||swcamp|localhost|EVENT|G
-menudb|schema||swcamp|localhost|EXECUTE|G
-menudb|schema||swcamp|localhost|INDEX|G
-menudb|schema||swcamp|localhost|INSERT|G
-menudb|schema||swcamp|localhost|LOCK TABLES|G
-menudb|schema||swcamp|localhost|REFERENCES|G
-menudb|schema||swcamp|localhost|SELECT|G
-menudb|schema||swcamp|localhost|SHOW CREATE ROUTINE|G
-menudb|schema||swcamp|localhost|SHOW VIEW|G
-menudb|schema||swcamp|localhost|TRIGGER|G
-menudb|schema||swcamp|localhost|UPDATE|G
-menudb|schema||swcamp|localhost|grant option|G</Grants>
-      <ServerVersion>12.0.2</ServerVersion>
+      <ServerVersion>11.8.3</ServerVersion>
     </root>
     <collation id="2" parent="1" name="armscii8_bin">
       <Charset>armscii8</Charset>
@@ -1371,37 +1349,37 @@ menudb|schema||swcamp|localhost|grant option|G</Grants>
       <Comment>카테고리</Comment>
       <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_general_ci</CollationName>
+      <CollationName>utf8mb4_uca1400_ai_ci</CollationName>
     </table>
     <table id="559" parent="555" name="tbl_menu">
       <Comment>메뉴</Comment>
       <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_general_ci</CollationName>
+      <CollationName>utf8mb4_uca1400_ai_ci</CollationName>
     </table>
     <table id="560" parent="555" name="tbl_order">
       <Comment>주문</Comment>
       <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_general_ci</CollationName>
+      <CollationName>utf8mb4_uca1400_ai_ci</CollationName>
     </table>
     <table id="561" parent="555" name="tbl_order_menu">
       <Comment>주문별메뉴</Comment>
       <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_general_ci</CollationName>
+      <CollationName>utf8mb4_uca1400_ai_ci</CollationName>
     </table>
     <table id="562" parent="555" name="tbl_payment">
       <Comment>결제</Comment>
       <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_general_ci</CollationName>
+      <CollationName>utf8mb4_uca1400_ai_ci</CollationName>
     </table>
     <table id="563" parent="555" name="tbl_payment_order">
       <Comment>결제별주문</Comment>
       <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_general_ci</CollationName>
+      <CollationName>utf8mb4_uca1400_ai_ci</CollationName>
     </table>
     <column id="564" parent="558" name="category_code">
       <AutoIncrement>13</AutoIncrement>
