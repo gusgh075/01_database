@@ -243,3 +243,5 @@ WHERE ref_category_code IS NULL;
 SELECT *
 FROM tbl_category
 WHERE ref_category_code IS NOT NULL;
+
+/*---------------------------------------------------------------------*/
