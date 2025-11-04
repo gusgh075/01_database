@@ -7,6 +7,8 @@ create database employeedb;
 
 grant all privileges on employeedb.* to 'practice'@'%'
 
+show grants for 'practice'@'%'
+
 -- Dropping existing tables if they exist
 DROP TABLE IF EXISTS EMPLOYEE;
 DROP TABLE IF EXISTS DEPARTMENT;
